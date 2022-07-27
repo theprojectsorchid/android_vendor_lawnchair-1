@@ -19,3 +19,13 @@ android_app_import {
     },
     system_ext_specific: true,
 }
+
+android_app_import {
+    name: "Lawnfeed",
+    apk: "app/Lawnfeed/Lawnfeed.apk",
+    presigned: true,
+    dex_preopt: {
+	enabled: false,
+    },
+    system_ext_specific: true,
+}
